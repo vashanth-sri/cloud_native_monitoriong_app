@@ -12,6 +12,9 @@
 4. Create an ECR repository using Python Boto3 and pushing Docker Image to ECR
 5. Kubernetes and Create EKS cluster and Node groups
 6. Create Kubernetes Deployments and Services using Python!
+<p align="center">
+  <img src="Images/OverView.webp" alt="Table1: 18 Activities" width="70%" height="70%">        
+</p>
 
 ## **Prerequisites** !
 
@@ -213,6 +216,9 @@ kubectl get pods -n default (to check the pods)
 ```
 
 Once your pod is up and running, run the port-forward to expose the service
+<p align="center">
+  <img src="Images/Screenshot 2023-08-06 235313.png" alt="Table1: 18 Activities" width="70%" height="70%">        
+</p>
 
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
